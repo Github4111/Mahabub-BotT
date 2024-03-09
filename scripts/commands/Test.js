@@ -2,12 +2,10 @@ const fs = require("fs");
 module.exports.config = {
   name: "goibot",
   version: "1.0.1",
-  Permssion: 0,
   prefix: true,
-  credits: "Mod by John Lester",
-  description: "goibot",
-  commandCategory: "Noprefix",
-  usages: "noprefix",
+  Permssion: 0,
+  description: "Mod by John Lester",
+  category: "Noprefix",
   cooldowns: 5,
 };
 module.exports.handleEvent = async function({ api, event, args, Threads, Users }) {
